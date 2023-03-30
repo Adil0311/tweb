@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- In questa pagina html ho aggiunto: 1)immagine di sfondo ripetuta, 2)icona favicon, 6) ho aggiunto un ancora al immagine del profilo
+quindi un link alla pagina con la spiegazione dell'immagine, poi ho usato il tag span per non far fuoriuscire il background dal
+intestazione h2 
+-->
+<html lang="en">
+	<head> 
+		<title>GiureDesign</title>
+		
+		<link href="bio.css" type="text/css" rel="stylesheet">
+		<!-- evitate di usare nomi di file che contengono
+		caratteri maiuscoli, speciali o spazi. Spostati in altro sistema 
+		operativo potrebbero dare problemi. 
+		Inoltre e' meglio che tutte le immagini stiano nella cartella
+		apposita
+		-->
+		<link rel="icon" href="img/myfav.png" sizes="16x16" type="image/png">
+	</head>
+	<body>
+		
+		<a name= "up"> </a>
+		<!-- con il tag span di classe "sfondogrigio" interno a h1 si 
+		realizza il requisito opzionale 5 anche per l'intestazione 
+		principale. 
+		-->
+		<h1><span class="sfondogrigio">Profilo di Donald Duck</span></h1> 
+
+        <h2><span class="sfondogrigio">Una breve parentesi</span></h2>
+		<!-- COMMENTO GR: non usare <em> su una porzione cosi' lunga di testo:
+		 il tag serve ad enfatizzare una parola, o poco piu'. 
+		 Piuttosto aggiungere un attributo class al paragrafo e cambiare 
+		 la proprieta' font-style nel file ccs.
+		
+		Ho rimosso quindi il paragrafo seguente:
+		<p><em>Sono una [...OMISSIS...].</em></p>
+		
+		Sostituendolo con quello che trovate sotto.
+		-->
+		<p class="italic">Sono uno studente di informatica a Paperinia. 
+        Sono un combinaguai.</p>
+		
+		<a href="http://senzadedica.blogspot.it/2014/02/uno-sguardo-nel-cielo-di-rene-magritte.html"> <!--url di destinazione -->
+		
+		<img id= "io" src = "img/dd.jpg" alt="Papero informatico" title="Papero informatico" > 
+		
+		</a>
+		
+	<h2><span class="sfondogrigio">Dati Personali</span></h2>
+		<!-- COMMENTO GR: per questioni di privacy ho oscurato 
+		alcune informazioni sensibili. 
+		-->
+		<ul> 
+			<li>Nome: xxxxxx xxxxxxxx</li> 
+			<li>Cognome:xxxxxxxxx</li> 
+			<li>Data di Nascita: xx/xx/xx</li> 
+			<li>Professione: xxxxxxxxx</li> 
+			<li>Telefono:xxxxxxxxxxxx</li>
+			<li>Citt&agrave;: xxxxxxxx</li> 
+			<!-- usare &agrave; -->
+		</ul>
+		
+		<!-- COMMENTO GR: per evitare che l'immagine sulla destra non copra 
+		la linea orizzontale, applicare ad essa una regola che agisca sulla
+		proprieta' clear: right -->
+		<hr id="fineprofilo">
+		
+	<h2><span class="sfondogrigio">Competenze Informatiche</span></h2>
+		<ul> 
+			<li>c</li> 
+			<li>Sql</li> 
+			<li>java</li>
+			<li>Netbeans</li>
+			<li>Unix</li>
+			<li><abbr title="HyperText Markup Language">html</abbr></li> 
+			<li><abbr title="Adobe Illustrator">Ai</abbr></li> 
+			<!-- COMMENTO GR: non usare <p> dentro <li>: il contenuto 
+			diventa un altro blocco -->
+		</ul>
+		
+		<hr>
+		
+		<h2><span class="sfondogrigio">Esperienze lavorative</span></h2>
+		<ol> 
+			<li>Laboratori didattici per bambini</li> 
+			<li>Programmatrice</li> 
+			<li>Allestitrice di mostre d'arte</li> 
+			<li>Rendering per sale polivalenti</li> 
+		</ol>
+		<hr>
+		
+	<h2><span class="sfondogrigio">Interessi personali</span></h2>
+		<dl>
+		<dt>Fotografia</dt> 
+		<!-- COMMENTO GR: come sopra: evitare <em> per porzioni di testo 
+		troppo lunghe. Anche qui ho usato la classe "italic" che poi viene
+		definita nel file css -->
+		<dd class="italic">Processo fotochimico per mezzo del quale 
+		l'immagine di un qualsiasi oggetto, ottenuta con la camera
+		oscura, viene fissata e resa permanente su un supporto di 
+		materiale sensibile ai raggi luminosi.</dd>
+		<dt>Grafica</dt> 
+		<dd class="italic">Insieme di caratteristiche formali che 
+		definiscono l'aspetto di oggetto.</dd>
+		</dl>
+		
+		<hr>
+		
+	<h2><span class="sfondogrigio">Link</span></h2>
+		<p>Laboratorio didattico: <a id="zoo" href="http://www.zooart.it/index.php/it/"><strong>ZooArt</strong></a> </p>
+		<hr>
+
+	<a href = "index.html"> Home </a> <br>
+	<!-- COMMENTO GR: modificato #Up in #up. 
+		-->
+	<a href = "#up"> Up </a> 
+	<hr>
+	
+	<!-- COMMENTO GR: <footer> e' un tag html5. Va benissimo, ma sarebbe 
+	meglio fosse tutto coerente e quindi usare anche article, header, etc. 
+	In alternativa si potrebbe usare un div con id=footer -->
+	<footer>
+		<a href="http://validator.w3.org/check/referer">
+		<img width="88" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png " alt="Valid HTML5!">
+		</a>
+
+
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+		</a>
+		<br>
+	</footer>
+	
+	</body>
+</html>

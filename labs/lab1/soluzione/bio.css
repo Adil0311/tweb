@@ -1,0 +1,100 @@
+
+body {
+	/* la proprieta' min-width risponde meglio alla richiesta del compito:
+	
+	 * "La dimensione di riferimento della finestra del browser deve essere di
+	 * 1024px; se la vostra finestra ha una dimensione diversa, il
+	 * ridimensionamento potrebbe modificare la disposizione del contenuto." 
+	
+	 * Al contrario, la proprieta' width usata nella versione originale di 
+	 * questa soluzione, blocca la dimensione e non si adatta al 
+	 * ridimensionamento	
+	 */
+	min-width: 1024px;
+	/* height: 1024px; la proprieta' height non era richiesta. */
+	background-color: #ffffff; /* ok */
+	color:#404040; /* ok */
+	/* quello che segue realizza il requisito opzionale 1. 
+	 * Ottima la scelta di questa immagine: non crea alcun conflitto in 
+	 * lettura con il testo. 
+	 * Modificato: path relativo per mettere tutte le immagini dentro 
+	 * la cartella ad essa dedicata
+	 */
+	background-image: url("img/sfondo-bianco.png"); /* ok */
+	background-repeat: repeat; /* ok */
+	font-size: 11pt; /* ok */
+	font-family: Georgia, Garamond, serif; /* aggiunto: serif */
+}
+
+h1,h2 {
+	color: #A4A400;
+	text-decoration: underline;
+	background-position: left;
+	/* aggiunto: sans-serif */
+	font-family:  "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	/* background-color:#F0F0F0; 
+	 * se non fosse stato realizzato il requisito addizionale 5 la
+	 * proprieta' background-color sarebbe stata modificata qui
+	 */
+	 letter-spacing: 0.25em; /* aggiunto: realizza il requisito opzionale 4 */
+}
+
+/* ho spostato la regola per h1 qui per conformita' rispetto alle altre
+ * regole sulle intestazioni
+ */
+h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22pt;
+}
+
+/* questo realizza la regole richieste per le altre intestazioni 
+ * della pagina che pero' rispetto alla soluzione originale sono state 
+ * spostate dal selettore span ad h2 
+ */
+h2 {
+	text-align: left;
+	font-size: 18pt;
+}
+
+/* invece che modificare la proprieta' background-color a tutti i tag span,
+ * la modifichiamo solo per quelli di classe sfondogrigio */
+span.sfondogrigio {
+	background-color:#F0F0F0; 
+	/* ottimo: il fatto di applicarlo su span realizza il 
+	 * requisito addizionale 5. 
+	 */
+	}
+	
+/* per evitare di usare <em> per lunghe porzioni di testo ho inserito 
+ * la classe italic da applicare laddove necessario
+ */
+.italic {
+	font-style: italic;
+}
+
+#io {
+	float: right; /* ok - ma ricordarsi poi di usare altrove clear: right per 
+				   * evitare sovrapposizioni non desiderate
+				   */
+	width:240px;
+	height:240px;
+}
+
+/* clear: right annulla l'effetto di un float sulla destra */
+#fineprofilo {
+	clear: right;
+}
+
+/* realizziamo il requisito addizionale 3 cambiando il tondino delle liste
+ * non ordinate
+ */
+ul {
+	list-style-image: url('img/myfav.png');
+}
+
+#zoo{
+	color: #A4A400;
+	font-size: 11pt;
+	
+}
