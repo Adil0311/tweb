@@ -26,3 +26,6 @@ const bilanciaparentesi = (str) => {
     return stack.length === 0;
 
 }
+
+
+console.log(bilanciaparentesi("{[()}"))

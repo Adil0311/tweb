@@ -17,3 +17,5 @@ const longestString2 = (arr) => {
   });
   return longest; 
 };
+
+console.log(longestString2(["ciao","mondo","crudele","addio"]));
