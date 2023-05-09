@@ -7,8 +7,8 @@ function logString(string) {
 }
     
 function createQuote(quote, callback) {
-const myQuote= `Like I always say, '${quote}'`;
-callback(myQuote);
+    const myQuote= `Like I always say, '${quote}'`;
+    callback(myQuote);
 }
     
 createQuote("JavaScript rocks!", logQuote);
