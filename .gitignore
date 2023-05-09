@@ -9,29 +9,6 @@ casestudies/cap05-casestudy/words.txt
 casestudies/cap06-casestudy/quiz.css
 casestudies/cap06-casestudy/quiz.php
 casestudies/cap06-casestudy/words.txt
-casestudies/cap08-casestudy/jquery/hangman.css
-casestudies/cap08-casestudy/jquery/hangman.html
-casestudies/cap08-casestudy/jquery/hangman0.gif
-casestudies/cap08-casestudy/jquery/hangman1.gif
-casestudies/cap08-casestudy/jquery/hangman2.gif
-casestudies/cap08-casestudy/jquery/hangman3.gif
-casestudies/cap08-casestudy/jquery/hangman4.gif
-casestudies/cap08-casestudy/jquery/hangman5.gif
-casestudies/cap08-casestudy/jquery/hangman6.gif
-casestudies/cap08-casestudy/jquery/hangmanJQuery.js
-casestudies/cap08-casestudy/vanilla js/hangman.css
-casestudies/cap08-casestudy/vanilla js/hangman.js
-casestudies/cap08-casestudy/vanilla js/hangman0.gif
-casestudies/cap08-casestudy/vanilla js/hangman1.gif
-casestudies/cap08-casestudy/vanilla js/hangman2.gif
-casestudies/cap08-casestudy/vanilla js/hangman3.gif
-casestudies/cap08-casestudy/vanilla js/hangman4.gif
-casestudies/cap08-casestudy/vanilla js/hangman5.gif
-casestudies/cap08-casestudy/vanilla js/hangman5.html
-casestudies/cap08-casestudy/vanilla js/hangman6.gif
-casestudies/cap09-casestudy/coloredsquares.css
-casestudies/cap09-casestudy/coloredsquares.js
-casestudies/cap09-casestudy/coloredsquares.shtml
 casestudies/cap11-casestudy/multquiz.css
 casestudies/cap11-casestudy/multquiz.js
 casestudies/cap11-casestudy/multquiz.shtml
@@ -108,34 +85,6 @@ esercizi/esercizi_jquery/selectp.js
 esercizi/esercizi_jquery/selectp.shtml
 esercizi/esercizi_jquery/siblings.js
 esercizi/esercizi_jquery/siblings.shtml
-esercizi/esercizi_js_dom/bottom.html
-esercizi/esercizi_js_dom/change.js
-esercizi/esercizi_js_dom/change.shtml
-esercizi/esercizi_js_dom/change1.js
-esercizi/esercizi_js_dom/change1.shtml
-esercizi/esercizi_js_dom/homer.js
-esercizi/esercizi_js_dom/homer.png
-esercizi/esercizi_js_dom/homer.shtml
-esercizi/esercizi_js_dom/leapyear.js
-esercizi/esercizi_js_dom/leapyear.shtml
-esercizi/esercizi_js_dom/link.js
-esercizi/esercizi_js_dom/link.shtml
-esercizi/esercizi_js_dom/rickastley.js
-esercizi/esercizi_js_dom/rickastley.shtml
-esercizi/esercizi_js_dom/rickastley2.js
-esercizi/esercizi_js_dom/rickastley2.shtml
-esercizi/esercizi_js_dom/searchable.css
-esercizi/esercizi_js_dom/searchable.js
-esercizi/esercizi_js_dom/searchable.shtml
-esercizi/esercizi_js_dom/shuffle.js
-esercizi/esercizi_js_dom/shuffle.shtml
-esercizi/esercizi_js_dom/swap.js
-esercizi/esercizi_js_dom/swap.shtml
-esercizi/esercizi_js_dom/tip.js
-esercizi/esercizi_js_dom/tip.shtml
-esercizi/esercizi_js_dom/tip0.js
-esercizi/esercizi_js_dom/tip0.shtml
-esercizi/esercizi_js_dom/top.html
 esercizi/esercizi_js_eventi/99bottles.js
 esercizi/esercizi_js_eventi/99bottles.shtml
 esercizi/esercizi_js_eventi/bottom.html
