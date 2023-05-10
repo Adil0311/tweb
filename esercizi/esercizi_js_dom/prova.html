@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<div id="foo">Primo div</div>
+<div class="bold">Secondo div</div>
+<div class="bold color">Terzo div</div>
+<script>
+    console.log(document.querySelector('#foo').innerHTML); 
+    document.getElementById('foo').innerHTML="ciao ciao";
+    console.log(document.querySelector('#foo').innerHTML); 
+    document.querySelectorAll('.bold');  
+    document.querySelectorAll('.color');
+    document.querySelectorAll('.bold, .color');
+</script>
+</body>
+</html>
