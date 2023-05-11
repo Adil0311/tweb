@@ -14,7 +14,7 @@
     }
     /*
     // alternatively, you can use higher order function in place of the for loop
-    Array.from({ length: squareCount }, () => addSquare());
+    Array.from({ length: squareCount }, addSquare);
     */
   };
 
