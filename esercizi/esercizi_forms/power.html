@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Exercises on Forms</title>
+    <meta charset="utf-8" >
+    <meta name="description" content="Exercises on HTML forms and sending content to servers." >
+    <style type="text/css">
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Power up!</h1>
+
+    <!-- remember to execute the nodejs 'power.js' server in ../powerapp first! -->
+    <form action="http://localhost:3000/" method="get">
+      <div>
+        Type your base:
+        <input name="base" value="10">   <br>
+        Type your exponent:    
+        <input name="exponent" value="2">   <br>    
+        <input type="submit" >     
+      </div>
+    </form>
+    
+    <div id="footer">
+      <p>
+      <a href="http://validator.w3.org/check/referer"> 
+      <img width="88" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML5!"></a>
+      <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" ></a>
+      </p>                                          
+    </div>
+  
+  </body>
+  </html>

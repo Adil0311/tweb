@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Exercises on Forms</title>
+    <meta charset="utf-8" >
+    <meta name="description" content="Exercises on HTML forms and sending content to servers." >
+    <style>
+        .tbc:invalid {
+            background: hsla(0, 90%, 70%, 1);
+        }
+    
+        .tbc:valid {
+            background: hsla(100, 90%, 70%, 1);
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Field Set: Registration</h1>
+    <!-- remember to execute the nodejs server in ../paramsapp first! -->
+    <form action="http://localhost:3000/" enctype="multipart/form-data" method="post">
+    <fieldset>
+        <legend>Login Information</legend>
+        <strong>username:</strong><input class="tbc" type="text" name="username" required><br>
+        <strong>email:</strong><input class="tbc" type="email" name="email" placeholder="joe@example.com" required><br>
+        <strong>password:</strong><input class="tbc" type="password" name="password1" required> <br>
+        <strong>repeat your password :</strong><input class="tbc" type="password" name="password2" required>  <br>
+    </fieldset>
+    <fieldset>
+        <legend>Additional Information</legend>
+        <strong>full name:</strong> <input type="text" name="fullname" ></label> <br>
+        <strong>birth date:</strong><input type="date" name="birthdate"><br>
+        <strong>favourite donald's nephew:</strong>
+        <input type="radio" name="ddnephew" value="heuy" checked="checked" > Huey
+        <input type="radio" name="ddnephew" value="dewey" > Dewey
+        <input type="radio" name="ddnephew" value="louie" > Louie <br >
+        <strong>favourite food: </strong>
+        <select name="food" >
+            <option>Pizza</option>
+            <option>Sushi</option>
+            <option>Kimchi</option>
+            <option>Arancino</option>
+            <option>Pasta</option>
+        </select> <br>
+        <strong>your picture:</strong>
+        <input type="file" name="pic" size="60" > <br >
+    </fieldset>
+    <fieldset>
+        <legend>Complete your Subscription</legend>
+        <input type="reset">
+        <input type="submit" value="Sign in" >
+    </fieldset>
+    </form>
+
+    <div id="footer">
+        <p>
+        <a href="http://validator.w3.org/check/referer"> 
+        <img width="88" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png" alt="Valid HTML5!"></a>
+        <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" ></a>
+        </p>                                          
+    </div>
+
+</body>
+</html>
