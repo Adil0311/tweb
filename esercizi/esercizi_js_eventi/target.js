@@ -1,5 +1,3 @@
-var beerCount = 99;
-
 window.onload = () => {
   document.querySelector("#radioduck").onchange=processDucks;
   //document.querySelector("input[name='ducks']").onchange=processDucks;
