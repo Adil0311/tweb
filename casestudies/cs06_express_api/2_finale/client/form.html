@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Exercises on Forms</title>
+    <meta charset="utf-8" >
+    <meta name="description" content="Simple form to add a new exam." >
+    <style type="text/css">
+    </style>
+  </head>
+
+  <body>
+
+    <h1>New exam</h1>
+    <!-- remember to execute the nodejs app in ./server.js first! -->
+    <form action="http://localhost:3000/exams" method="post">
+      <fieldset>
+        <legend>Exam information</legend>
+        <input type="text" name="code" > Course code <br>
+        <input type="date" name="date" > Exam's date <br>
+        <input type="number" name="grade" > Exam's grade
+      </fieldset>
+      
+        <input type="submit" >
+    </form>
+
+  </body>
+  </html>
