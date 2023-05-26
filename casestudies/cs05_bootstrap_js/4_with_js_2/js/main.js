@@ -1,8 +1,8 @@
 "use strict";
 
 // getting the two containers
-const examContainer = document.querySelector('#my-exams');
-const sidebarContainer = document.querySelector('#sidebar');
+const examsContainer = document.querySelector("#exams");
+const asideContainer = document.querySelector("#aside");
 
 // creating our app
-const app = new App(examContainer, sidebarContainer);
+const app = new App(examsContainer, asideContainer);
