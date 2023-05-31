@@ -35,8 +35,6 @@ app.get('/courses', (req,res)=>{
 
         // send a res in JSON
         res.json(rows);
-
-        
     }  );
 })
 
