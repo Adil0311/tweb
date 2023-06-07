@@ -11,11 +11,12 @@ class App {
         this.appContainer = appContainer;
         
         // client-side routing with Page.js
-        page('/', () => {
+        page('/exams', () => {
             navLinks.innerHTML = '';
             navLinks.insertAdjacentHTML("beforeend",createNavLinks('exams'));
             this.showExams();
         });
+        page('/', '/exams');
 
         page('/courses', () => {
             navLinks.innerHTML = '';
